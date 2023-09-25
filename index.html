@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Project</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <!-- Modern Portfolio 2023 by Naul Santos -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo-box">
+                <a href="#" target="_blank"><img src="./imagens/fotoperfil.svg" alt="Picture of Naul" class="logo">
+                </a>
+            </div>
+            <div class="parent-link">
+                <a href="#about" class="social-links">About</a>
+                <a href="https://github.com/Naul71" class="social-links">Projects</a>
+                <a href="#formulario" class="social-links">Contact</a>
+            </div>
+            <div class="icon">
+                <a href="https://www.instagram.com/naulsant/" target="_blank" class="sm-icon">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+                <a href="https://github.com/Naul71" target="_blank" class="sm-icon">
+                    <ion-icon name="logo-github"></ion-icon>
+                </a>
+                <a href="https://www.linkedin.com/in/igor-luan-457443244/" target="_blank" class="sm-icon">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+            </div>
+        </nav>
+        <div class="header-container">
+            <div class="hdr-container-left">
+                <h1>Igor Luan</h1>
+                <h3>Developer Front-End </h3>
+                <p>
+                    Eu sou <strong>Front-End Developer</strong>, e esse é o meu Portfolio, seja muito bem-vindo.
+                </p>
+                <a href="mailto:naullsant@gmail.com" class="btn">Agende sua Reunião</a>
+                <a href="./imagens/CV Igor Luan.pdf" download="CV Igor Luan" class="cv"> Currículo
+                    <ion-icon name="code-download-outline" class="cv-icon"></ion-icon>
+                </a>
+
+            </div>
+            <div class="hdr-container-right">
+                <img src="./imagens/naulfoto2.jpeg" alt="Picture of Oliver">
+            </div>
+        </div>
+    </header>
+    <!-- Article -->
+    <article>
+        <div id="about" class="upr-box">
+            <div class="box-mid">
+                <h1>Sobre mim</h1>
+                <p>Olá, me chamo Igor, tenho 27 anos, sou developer Front-End, atualmente estou morando em
+                    salvador/Bahia, estou cursando análise e desenvolvimento de sistemas, sou iniciante nessa área de
+                    programação, mas estou bastante empolgado. <br>
+                    Nesse momento estou aprimorando meus conhecimentos em Javascript com foco em ReactJs, tenho alguns
+                    projetos no meu Github, espero que goste deles, o link está logo acima, qualquer dúvida entra em
+                    contato comigo.</p>
+            </div>
+        </div>
+    </article>
+    <div class="box-info">
+        <div class="info-company">
+            <div class="upr-info">
+                <p>Como <strong>desenvolvedor de software</strong>, me especializo no desenvolvimento de aplicativos
+                    ,usando minha experiência para transformar ideias em código funcional.
+                    Meu objetivo é criar soluções que não apenas funcionem perfeitamente, mas que também repercutam nos
+                    usuários.
+                </p>
+            </div>
+            <div class="lower-info">
+                <img src="./imagens/undraw_programming_re_kg9v.svg" alt="Imagem de uma pessoa programando">
+            </div>
+        </div>
+        <div class="info-company info-2">
+            <div class="lower-info">
+                <img src="./imagens/undraw_static_website_re_x70h.svg" alt="Imagem css e html">
+            </div>
+            <div class="upr-info">
+                <p>Como <strong>desenvolvedor de sites</strong>, combino habilidade de design e habilidades de
+                    codificação para construir sites fáceis de usar.
+                    Meu objetivo é criar espaços digitais que cativem os visitantes e proporcionem-lhes uma navegação
+                    intuitiva e experiências impactantes.
+                </p>
+            </div>
+        </div>
+        <div class="info-company">
+            <div class="upr-info">
+                <p>Como Back-End, sei que ainda tenho muito que aprender, E estou aqui para isso vai ser uma longa
+                    jornada e no final esse esforço ira valer a pena.
+                    Mas tento criar algo que faça com que os usuários se entretenham e não acham que é uma perda tempo.
+                </p>
+            </div>
+            <div class="lower-info">
+                <img src="./imagens/undraw_server_cluster_jwwq.svg" alt="Imagem de um Painel de controle">
+            </div>
+        </div>
+    </div>
+    <!--Formulario-->
+    <div class="form-container">
+        <form class="form">
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" required="">
+            </div>
+            <div class="form-group">
+                <label for="Nome">Name</label>
+                <input type="text" id="nome" name="nome">
+            </div>
+            <div class="form-group">
+                <label for="textarea">How Can We Help You?</label>
+                <textarea name="textarea" id="textarea" rows="10" cols="50" required="">          </textarea>
+            </div>
+            <button class="form-submit-btn" type="submit">Submit</button>
+        </form>
+    </div>
+    <!-- Footer -->
+    <hr>
+    <footer>
+        <div class="name">Naul</div>
+        <div class="icon">
+            <a href="https://www.instagram.com/naulsant/" target="_blank" class="sm-icon">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+            <a href="https://github.com/Naul71" target="_blank" class="sm-icon">
+                <ion-icon name="logo-github"></ion-icon>
+            </a>
+            <a href="https://www.linkedin.com/in/igor-luan-457443244/" target="_blank" class="sm-icon">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
